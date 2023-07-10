@@ -8,6 +8,7 @@
   --white: #ffffff;
   --ocean: #2196f3;
   --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
 }
 .header-logo {
   text-decoration: none;
@@ -119,8 +120,86 @@
   line-height: 24px;
   letter-spacing: 0.64px;
 }
+
+/*Section 2*/
+.section2-item-title {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  color: var(--navyblue, #2e2f42);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
 .section2-item-text {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
   color: var(--slate, #434455);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+/*Section 3*/
+.section3-title {
+  color: var(--navyblue, #2e2f42);
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.section3-item {
+  width: 360px;
+  height: 300px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: url(<path-to-image>),
+    lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
+}
+
+/*Section 4*/
+.section4-title {
+  color: var(--navyblue, #2e2f42);
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.section4-item-title {
+  color: var(--navyblue, #2e2f42);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.section4-item-text {
+  color: var(--slate, #434455);
+
   /* Body */
   font-family: Roboto;
   font-size: 16px;
@@ -163,8 +242,29 @@
 
 /*PORTOFOLIO CSS*/
 
-/* Buttons*/
+.section-title {
+  color: var(--navyblue, #2e2f42);
 
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.section-text {
+  color: var(--slate, #434455);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+/* Buttons*/
 .btn-all {
   display: flex;
   padding: 12px 24px;
