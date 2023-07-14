@@ -14,7 +14,7 @@
 body {
   font-family: "roboto", sans-serif;
   font-size: 16px;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: var(--slate);
 }
 
@@ -134,13 +134,6 @@ body {
 
 .footer-description {
   color: var(--cloud);
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 
 /* Portfolio CSS*/
@@ -156,36 +149,34 @@ body {
   border-radius: 4px;
 }
 
-.button-text {
+.button.filter {
+  background: var(--cloud);
   color: var(--iris);
-  text-align: center;
-
-  /* Button Text */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.62;
 }
 
-.filter {
-  border-radius: 4px;
-  border: 1px solid var(--cornflower);
-  background: var(--cloud);
+.button.filter:hover,
+.button.filter:focus,
+.button.filter:current {
+  background-color: var(--ocean);
+  color: var(--cloud);
 }
 
 .project {
   text-decoration: none;
 }
 
+.project .name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--navyblue);
+}
+
 .type {
   color: var(--slate);
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.87;
 }
